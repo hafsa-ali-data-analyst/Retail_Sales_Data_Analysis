@@ -1,97 +1,121 @@
-<h1>🛒 Retail Sales Analytics: SQL-Driven Business Insights</h1>
+# 🛒 Retail Sales Analytics Using SQL
 
-<p>
-This project analyzes retail sales data using SQL to extract insights on customer behavior, product performance, and revenue trends.
-The dataset includes multiple related tables such as customers, products, orders, order details, categories, and employees.
-</p>
+---
 
-<hr>
+# 📌 Project Overview
 
-<h2>📊 Project Overview</h2>
-<ul>
-<li>Performed analysis on <b>thousands of rows</b> across multiple tables</li>
-<li>Used SQL to extract business insights from raw transactional data</li>
-<li>Focused on revenue, customer behavior, and performance metrics</li>
-</ul>
+This project analyzes retail sales data using SQL to uncover insights related to customer purchasing behavior, product performance, sales trends, and employee performance.
 
-<hr>
+The analysis was performed on a relational retail database containing multiple interconnected tables such as customers, orders, products, categories, employees, and order details.
 
-<h2>❗ Problem Statement</h2>
-<p>
-Retail data is often complex and spread across multiple tables. Without proper analysis, it is difficult to:
-</p>
-<ul>
-<li>Identify top-performing products and categories</li>
-<li>Understand customer purchasing patterns</li>
-<li>Track revenue trends</li>
-<li>Evaluate employee performance</li>
-</ul>
+---
 
-<hr>
+# 🎯 Business Objectives
 
-<h2>💡 Solution</h2>
-<ul>
-<li>Used SQL joins to connect multiple tables</li>
-<li>Applied aggregate functions (SUM, COUNT, AVG)</li>
-<li>Used subqueries for comparisons</li>
-<li>Implemented window functions (RANK, Running Total)</li>
-<li>Generated meaningful business insights</li>
-</ul>
+The goal of this analysis was to answer key business questions such as:
 
-<hr>
+- Which product categories generate the highest revenue?
+- Who are the top revenue-generating customers?
+- Which products are underperforming?
+- How do sales trends change over time?
+- How does employee performance compare across sales?
 
-<h2>🎯 Key Analysis</h2>
-<ul>
-<li>Customer order behavior</li>
-<li>Revenue calculation</li>
-<li>Product and category performance</li>
-<li>Employee performance analysis</li>
-<li>Running total of sales</li>
-</ul>
+---
 
-<hr>
+# 🗂️ Dataset
 
-<h2>📊 Key Insights</h2>
-<ul>
-<li>Beverages category generates the highest revenue</li>
-<li>Top customers contribute a major portion of revenue</li>
-<li>Some products have never been ordered</li>
-<li>Revenue shows a growing trend over time</li>
-<li>Employee performance varies significantly</li>
-</ul>
+The database consists of multiple related tables:
 
-<hr>
+- Customers
+- Orders
+- Order Details
+- Products
+- Categories
+- Employees
 
-<h2>⭐ Key Highlights</h2>
-<ul>
-<li>Advanced SQL (Window Functions, Subqueries)</li>
-<li>Complex joins across multiple tables</li>
-<li>Real-world business problem solving</li>
-<li>Clean and structured queries</li>
-</ul>
+These tables were connected using SQL joins to perform business-focused analysis.
 
-<hr>
+---
 
-<h2>🛠️ Tools Used</h2>
-<ul>
-<li>SQL (MySQL)</li>
-<li>MySQL Workbench</li>
-</ul>
+# 🔍 Analysis Performed
 
-<hr>
+## Customer Analysis
+- Identified top customers based on total revenue
+- Analyzed customer ordering behavior and purchase contribution
 
-<h2>📁 Project Structure</h2>
-<ul>
-<li>dataset/ – SQL database file</li>
-<li>retail_sales_analysis.sql – queries</li>
-<li>screenshots/ – outputs</li>
-<li>outputs/ – exported results</li>
-</ul>
+## Product & Category Analysis
+- Evaluated top-performing product categories
+- Identified products with low or zero sales
 
-<hr>
+## Sales Analysis
+- Calculated total revenue
+- Analyzed sales growth trends over time
+- Generated running total sales analysis using window functions
 
-<h2>🚀 Conclusion</h2>
-<p>
-This project demonstrates the ability to transform raw retail data into actionable insights using SQL. 
-It highlights strong skills in data analysis, query writing, and business understanding.
-</p>
+## Employee Performance Analysis
+- Compared employee sales performance and contribution
+
+---
+
+# 📊 Key Insights
+
+- Beverages generated the highest overall revenue among all categories
+- A small group of customers contributed a significant portion of total sales
+- Some products received no customer orders
+- Revenue showed a consistent growth trend over time
+- Employee performance varied across sales contribution
+
+---
+
+# 💡 Business Recommendations
+
+## Focus on High-Performing Categories
+Since the Beverages category generated the highest revenue, the business should focus on increasing its production, inventory management, and distribution to maximize profitability.
+
+## Improve Customer Retention
+A small percentage of customers contributed heavily to total revenue. Implementing loyalty programs, personalized offers, and long-term engagement strategies can help retain these valuable customers.
+
+## Optimize Low-Performing Products
+Products with zero or low sales should be reviewed to identify issues related to pricing, demand, or marketing. Underperforming products can either be improved or removed from inventory.
+
+## Continue Successful Sales Strategies
+As revenue trends show consistent growth over time, the company should continue and strengthen its current sales and marketing strategies.
+
+## Monitor Employee Performance
+Since employee performance differs significantly, additional training and performance-based incentives may help improve overall sales efficiency.
+
+---
+
+# 🛠️ Tools Used
+
+- SQL
+- MySQL Workbench
+
+---
+
+# 🚀 SQL Skills Demonstrated
+
+- Joins
+- Aggregate Functions
+- Subqueries
+- Window Functions
+- CTEs
+- Group By & Filtering
+- Business Data Analysis
+  
+---
+
+# 📁 Repository Structure
+
+📦 Retail_Sales_Data_Analysis  
+ ┣ 📂 dataset  
+ ┣ 📂 screenshots  
+ ┣ 📂 outputs  
+ ┣ 📜 retail_sales_analysis.sql  
+ ┗ 📜 README.md
+---
+
+# ✅ Conclusion
+
+This project demonstrates how SQL can be used to transform raw retail transaction data into actionable business insights. The analysis highlights practical skills in data querying, customer analytics, sales trend analysis, and business performance evaluation using SQL.
+
