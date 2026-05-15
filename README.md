@@ -113,6 +113,7 @@ Since employee performance differs significantly, additional training and perfor
  ┣ 📂 outputs  
  ┣ 📜 retail_sales_analysis.sql  
  ┗ 📜 README.md
+ 
 ---
 
 # ✅ Conclusion
